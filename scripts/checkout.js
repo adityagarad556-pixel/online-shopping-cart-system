@@ -5,13 +5,15 @@ import { renderpaymentSummary } from "./checkout/paymentSummary.js";
 import { loadProducts, loadProductsFetch } from "../data/products.js";
 import {loadCart} from '../data/cart.js';
 import {removeFromCart,cart} from '../data/cart.js';
+import {addOrders} from '..data/orders.js';
+
 // new Promise((resolve)=>{
 //    loadProducts(()=>
 //     {
 //         resolve();
 //     });
 // }).then(()=>
-//     {
+//     {a
 //     renderOrderSummary();
 //     renderpaymentSummary();
 // });
